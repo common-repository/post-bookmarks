@@ -1,0 +1,83 @@
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+#post-bkmarks-list .loading {
+  pointer-events: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+#post-bkmarks-list .ellipsis {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+#post-bkmarks-list > .subsubsub {
+  margin: 0;
+  margin-bottom: 1em;
+}
+#post-bkmarks-list > .tablenav .row-add-button {
+  margin: 0;
+}
+body.no-js #post-bkmarks-list > .tablenav .row-add-button {
+  display: none;
+}
+#post-bkmarks-list > table.wp-list-table .column-reorder, #post-bkmarks-list > table.wp-list-table .column-favicon {
+  width: 2em;
+  text-align: center;
+}
+body.no-js #post-bkmarks-list > table.wp-list-table .column-action {
+  display: none;
+}
+#post-bkmarks-list > table.wp-list-table #the-list tr td {
+  overflow: hidden;
+}
+#post-bkmarks-list > table.wp-list-table #the-list tr td input[type='text'] {
+  width: 100%;
+}
+#post-bkmarks-list > table.wp-list-table #the-list tr td.column-reorder .metabox-table-row-draghandle {
+  text-align: center;
+}
+#post-bkmarks-list > table.wp-list-table #the-list tr td.column-reorder .metabox-table-row-draghandle:not(.disabled) {
+  cursor: pointer;
+  cursor: hand;
+}
+#post-bkmarks-list > table.wp-list-table #the-list tr td.column-reorder .metabox-table-row-draghandle.disabled {
+  opacity: 0.5;
+}
+#post-bkmarks-list > table.wp-list-table #the-list tr td.column-category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#post-bkmarks-list > table.wp-list-table #the-list tr td.column-favicon .post-bkmarks-favicon {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+body.js #post-bkmarks-list > table.wp-list-table #the-list tr.metabox-table-row-new:first-child {
+  display: none;
+}
+#post-bkmarks-list > table.wp-list-table #the-list tr .metabox-table-cell-toggle.metabox-table-cell-display {
+  display: inherit;
+}
+#post-bkmarks-list > table.wp-list-table #the-list tr .metabox-table-cell-toggle.metabox-table-cell-edit {
+  display: none;
+}
+#post-bkmarks-list > table.wp-list-table #the-list tr .row-actions span.save {
+  display: none;
+}
+#post-bkmarks-list > table.wp-list-table #the-list tr.metabox-table-row-edit .metabox-table-cell-toggle.metabox-table-cell-display {
+  display: none;
+}
+#post-bkmarks-list > table.wp-list-table #the-list tr.metabox-table-row-edit .metabox-table-cell-toggle.metabox-table-cell-edit {
+  display: inherit;
+}
+#post-bkmarks-list > table.wp-list-table #the-list tr.metabox-table-row-edit .row-actions span.save {
+  display: inline;
+}
+#post-bkmarks-list > table.wp-list-table #the-list tr.metabox-table-row-edit .row-actions span.edit {
+  display: none;
+}
